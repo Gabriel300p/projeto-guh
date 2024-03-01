@@ -7,8 +7,8 @@ export default function Home() {
     return message;
   };
   return (
-    <main className="p-8">
-      <div className="container mx-auto">
+    <main className="p-4 md:p-8">
+      <div className="md:mx-auto">
         <h1 className="text-3xl font-semibold mb-4">Lista de chuteiras</h1>
         <ProductList products={products} />
       </div>
